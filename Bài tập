@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin khách hàng</title>
+</head>
+<body>
+    <form >
+        Họ và tên:  <input type="text" name="Họ_và_tên" />
+        <br>
+        Số điện thoại:  <input type="text" name="Số_Điện_Thoại" />
+        <br>
+        Gmail:  <input type="text" name="Gmail" />
+
+        </form>
+        <button>Đăng ký</button>
+        <form action="Script URL" method="GET|POST"></form>
+        <table>
+             <thead>
+                 <th>STT</th>
+                 <th>Tên</th>
+                 <th>Biệt Danh</th>
+             </thead>
+            
+             <tbody>
+                 <tr>
+                     <td>1</td>
+                     <td>Khôi</td>
+                     <td>Ông Hoàng Thực Hành</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>Tín</td>
+                    <td>Ông Hoàng Tri Thức</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Phong</td>
+                    <td>Ông Hoàng Khói Thút</td>
+                </tr>
+             </tbody>
+        </table>
+</body>
+</html>
